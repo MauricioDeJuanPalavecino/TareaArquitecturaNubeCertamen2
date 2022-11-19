@@ -16,8 +16,8 @@ Project code for tutorial on integrating MongoDB into Node.js application using 
 - .gitignore
 - .env
 3. el archivo wait-for.sh debe borrarse y volverse a pegar creando otro archivo con el mismo nombre en la misma carpeta donde esta
-4. Una vez hecho esto, se debe usar el comando "chmod +x wait-for.sh"
-5. Luego nos vamos a la carpeta en donde esta node_project y ejecutamos el comando "docker-compose up -d"
+4. Una vez hecho esto, se debe usar el comando con una terminal "chmod +x wait-for.sh"
+5. Luego nos vamos a la carpeta en donde esta node_project con otra terminal  y ejecutamos el comando "docker-compose up -d"
 6. Ponemos nuestra ip de esta forma http://{nuestra_ip}  (Recordar que {nuestra_ip} es reemplazada por la que nosotros tenemos de forma local)
 7. Deberiamos ver el trabajo correctamente creado.
-- Como nota importante: todos los archivos .env como .dockerignore deben quedarse en la misma carpeta de node_project, también el punto 4 se debe ejecutar desde terminar git bash o similar la cual tenga ese comando
+- Como nota importante: todos los archivos .env como .dockerignore deben quedarse en la misma carpeta de node_project, también el punto 4 se debe ejecutar desde terminal git bash o similar la cual tenga ese comando
