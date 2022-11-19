@@ -1,0 +1,107 @@
+.navbar {
+    margin-bottom: 0;
+    background: #000000;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Merriweather', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background: #0048CD;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 26px;
+}
+
+.btn-primary {
+    color: #fff;
+    text-color: #000000;
+    border-color: white;
+    margin-bottom: 5px;
+}
+
+img,
+video,
+audio {
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+div.caption: {
+    float: left;
+    clear: both;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1e50f4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
